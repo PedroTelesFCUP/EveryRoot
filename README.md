@@ -1,6 +1,8 @@
 # EveryRoot
 Chess Engine with Two Neural Networks that learn to play chess from adaptive search alphabeta with computational cost allocation
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22542184.svg)](https://doi.org/10.5281/zenodo.22542184)
+
 # EveryRoot
 
 ### Learning chess moves and search allocation
