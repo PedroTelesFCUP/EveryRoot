@@ -1,0 +1,42 @@
+{
+  "preparation_note": "Fields for manual entry in the Zenodo upload form. This is not an API payload and does not represent a published record.",
+  "title": "EveryRoot: Learning Chess Moves and Search Allocation",
+  "resource_type": "Publication / Report",
+  "creators": [
+    {
+      "name": "Teles, Pedro"
+    }
+  ],
+  "language": "English",
+  "description": "EveryRoot investigates whether a chess engine can learn both which moves to play and how much search a position deserves. The architecture combines a Proximal Policy Optimization move policy with native alpha-beta search and a detached Soft Actor-Critic controller. The move policy learns from searched evaluations expressed as reinforcement-learning rewards, supplemented by imitation of search-selected moves. The controller learns search budgets and stopping decisions by balancing evaluation fidelity against computational cost. The aim is competitive chess strength with lower computational requirements, supporting an affordable chess-playing and analysis application. This report describes the architecture, the proposed contribution and the intended product. It presents research aims rather than established superiority over competing engines. The deposited package contains the architecture report and supporting documentation; engine source code and trained weights are excluded.",
+  "keywords": [
+    "chess",
+    "reinforcement learning",
+    "proximal policy optimization",
+    "soft actor-critic",
+    "alpha-beta search",
+    "adaptive computation",
+    "search imitation"
+  ],
+  "proposed_rights": {
+    "entry_method": "Remove the default licence and select Add custom if the author confirms these rights for publication.",
+    "title": "All rights reserved",
+    "description": "Copyright © 2026 Pedro Teles. All rights reserved. No additional reuse licence is granted for the original text and figures in this documentation release. Permissions provided by applicable law and hosting-platform terms are unaffected. Engine source code and trained weights are not included."
+  },
+  "files_for_one_record": [
+    "report/EveryRoot_Architecture_Report.pdf",
+    "EveryRoot_GitHub_Zenodo.zip"
+  ],
+  "complete_at_release": [
+    "Actual publication date",
+    "Selected document-release version",
+    "Genuinely reserved Zenodo DOI",
+    "Real GitHub release URL",
+    "Author-confirmed publication rights"
+  ],
+  "optional_only_if_confirmed": [
+    "Author ORCID",
+    "Author affiliation",
+    "Awarded funding information"
+  ]
+}
